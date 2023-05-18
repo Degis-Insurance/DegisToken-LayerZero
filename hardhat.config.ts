@@ -2,6 +2,8 @@ import { HardhatUserConfig } from "hardhat/config";
 import "@nomicfoundation/hardhat-toolbox";
 import "hardhat-deploy";
 
+import "./tasks/index";
+
 import * as dotenv from "dotenv";
 dotenv.config();
 
